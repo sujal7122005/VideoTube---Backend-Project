@@ -68,18 +68,4 @@ All endpoints use the `{{baseURL}}` variable. Set this variable to the root URL 
 
 ---
 
-## Additional Notes
 
-- This collection currently contains only the health check endpoint. As more endpoints are added, update this documentation to include details for each endpoint, including parameters, authentication, and examples.
-    
-- For questions or support, contact the API maintainer.
-    
-
----
-
-## Changelog
-
-- **v1.0**: Initial documentation for health check endpoint.
-    
-
----
