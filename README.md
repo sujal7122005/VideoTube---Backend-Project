@@ -1,12 +1,12 @@
-# VedioTube API Documentation
+# VideoTube API Documentation
 
-Welcome to the VedioTube API collection. This documentation provides a comprehensive overview of all available endpoints, parameters, authentication methods, and usage examples for the VedioTube API.
+Welcome to the VideoTube API collection. This documentation provides a comprehensive overview of all available endpoints, parameters, authentication methods, and usage examples for the VedioTube API.
 
 ---
 
 ## Overview
 
-VedioTube is an API designed to support video-related operations. This collection currently contains the health check endpoint, which can be used to verify the availability and status of the VedioTube backend service.
+VideoTube is an API designed to support video-related operations. This collection currently contains the health check endpoint, which can be used to verify the availability and status of the VedioTube backend service.
 
 ---
 
