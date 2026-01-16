@@ -67,13 +67,13 @@ All endpoints use the `{{baseURL}}` variable. Set this variable to the root URL 
     
 
 ---
-Health Check
+## Health Check
 
 GET /api/v1/healthcheck - 
 Used to verify API availability and server health.
 
 ---
-User & Authentication Routes : 
+## User & Authentication Routes : 
 
 POST /api/v1/users/register - 
 Register a new user with avatar and cover image.
@@ -109,7 +109,7 @@ GET /api/v1/users/user-watch-history -
 Get watch history of the logged-in user.
 
 ---
-Video Routes : 
+## Video Routes : 
 
 GET /api/v1/videos - 
 Get all videos (supports search using query params).
@@ -131,7 +131,7 @@ Toggle publish/unpublish status of a video.
 
 ---
 
-Comment Routes : 
+## Comment Routes : 
 
 POST /api/v1/comments/add-comment/:videoId - 
 Add a comment to a video.
@@ -147,7 +147,7 @@ Delete a comment.
 
 ---
 
-Like Routes : 
+## Like Routes : 
 
 POST /api/v1/likes/video-like-toggle/:videoId - 
 Like or unlike a video.
@@ -163,7 +163,7 @@ Get all videos liked by the user.
 
 ---
 
-Tweet Routes : 
+## Tweet Routes : 
 
 POST /api/v1/tweets/create-tweet - 
 Create a new tweet.
@@ -179,7 +179,7 @@ Delete a tweet.
 
 ---
 
-Subscription Routes : 
+## Subscription Routes : 
 
 POST /api/v1/subscriptions/toggle-subscription/:channelId - 
 Subscribe or unsubscribe from a channel.
@@ -191,7 +191,7 @@ GET /api/v1/subscriptions/subscribed-channels/:subscriberId -
 Get all channels subscribed by a user.
 
 ---
-Playlist Routes : 
+## Playlist Routes : 
 
 POST /api/v1/playlists/create-playlist - 
 Create a new playlist.
